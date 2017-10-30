@@ -1,0 +1,133 @@
+/*@import 'node_modules/bootstrap-sass/assets/stylesheets/bootstrap';*/
+@import url(https://fonts.googleapis.com/css?family=Wallpoet|Playball);
+* {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline-style: none;
+  /*IE*/
+}
+
+body {
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("http://www.tiptheme.com/wp-content/uploads/2015/07/paper-background-3.jpeg");
+}
+
+.app {
+  width: 300px;
+  height: 440px;
+  max-height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  box-shadow: 0px -4px 7px #111, 0px 10px 25px 0px #414141;
+  border-radius: 15px;
+}
+
+.header-container {
+  background: url("http://addyosmani.com/resources/essentialjsdesignpatterns/book/images/base.png");
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  box-shadow: 0px -7px 0px -2px #383838;
+  overflow: hidden;
+}
+
+header {
+  padding: 50px 15px 15px;
+  border: 1px solid #626262;
+  background-color: rgba(0, 0, 0, 0.75);
+  font-family: 'Wallpoet', cursive;
+}
+header .clearfix {
+  overflow: hidden;
+  padding: 5px 0;
+  position: relative;
+  color: #520202;
+}
+header .clearfix .brand {
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+  font-family: 'Playball', cursive;
+  font-size: 20px;
+}
+header .screen {
+  height: 80px;
+  padding: 15px 5px 5px;
+  background: #989E99;
+  color: #111;
+  border: 1px solid black;
+  box-shadow: inset 1px -2px 3px #424242, inset -2px 1px 2px #424242;
+  border-radius: 3px;
+  font-family: 'Wallpoet', cursive;
+}
+header .inner-screen {
+  background: #647466;
+  height: 95%;
+  border: 1px solid #546456;
+  padding: 5px;
+  line-height: 2;
+  font-size: 30px;
+  overflow: hidden;
+}
+header .inner-screen .input-display {
+  float: right;
+}
+
+.input-area {
+  border: 1px solid #ccc;
+  border-top: 0;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background: url("http://addyosmani.com/resources/essentialjsdesignpatterns/book/images/base.png");
+}
+
+.key-board {
+  background-color: #DDDDDD;
+  height: 265px;
+  padding: 15px 15px 0px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.03);
+  border: 1px solid #B8B8B8;
+  border-top: none;
+}
+.key-board .btn-row {
+  margin-bottom: 13px;
+  overflow: hidden;
+}
+.key-board .btn-row:last-child {
+  margin-top: -48px;
+}
+.key-board button {
+  display: block;
+  width: 22%;
+  height: 35px;
+  cursor: pointer;
+  float: left;
+  margin-right: 4%;
+  background-color: #575656;
+  border: 0;
+  border-radius: 5px;
+  color: #000;
+  font-weight: bold;
+  font-size: 25px;
+  box-shadow: 2px -2px 4px 0px #101010 inset, -2px 2px 4px 0px #989898 inset;
+}
+.key-board button:last-child {
+  float: right;
+  margin-right: 0;
+}
+.key-board button.zero-btn {
+  width: 48%;
+}
+.key-board button.equals-btn {
+  height: 83px;
+}
