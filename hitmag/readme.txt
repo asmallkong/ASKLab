@@ -3,8 +3,8 @@
 Contributors: Pubudu Malalasekara
 Tags: grid-layout,right-sidebar,two-columns,custom-logo,custom-background,custom-menu,featured-images,footer-widgets,full-width-template,theme-options,threaded-comments,translation-ready,news,blog
 Requires at least: 4.0
-Tested up to: 4.8.1
-Stable tag: 1.0.9
+Tested up to: 4.8.3
+Stable tag: 1.1.0
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -92,6 +92,9 @@ Font Awesome 4 Menus
 * Fixed a plugin conflict with slider.
 * Fixed IE 11 menu dropdown icon issue.
 * Added styles to Category Widget and Archive Widget.
+
+= 1.1.0 - November 04 2017 =
+* Fixed white space issue on header.
 
 == Credits ==
 

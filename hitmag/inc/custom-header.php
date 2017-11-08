@@ -49,7 +49,7 @@ function hitmag_header_style() {
 	?>
 	<style type="text/css">
 	<?php
-		// Has the text been hidden?
+		// Has the text been hidden or the logo?
 		if ( ! display_header_text() ) :
 	?>
 		.site-title,
@@ -57,6 +57,17 @@ function hitmag_header_style() {
 			position: absolute;
 			clip: rect(1px, 1px, 1px, 1px);
 		}
+			
+			<?php
+			$custom_logo_id = get_theme_mod( 'custom_logo' );
+			if ( empty( $custom_logo_id ) ) : ?>
+
+				.site-branding {
+					display: none;
+				}
+
+			<?php endif; ?>
+
 	<?php
 		// If the user has set a custom color for the text use that.
 		else :
