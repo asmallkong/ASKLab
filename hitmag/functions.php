@@ -394,3 +394,10 @@ require get_template_directory() . '/inc/widgets/popular-tags-comments.php';
  * Theme Info Page.
  */
 require get_template_directory() . '/inc/dashboard/theme-info.php';
+
+/**
+ * fix loop redirect bug
+ */
+/**
+ * remove_filter('template_redirect', 'redirect_canonical');
+ */
